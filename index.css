@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;  /* Eltávolítja az aláhúzást */
+    font-weight: bold;      /* Vastag betűtípus */
+    color: red;             /* Alapértelmezett piros szín */
+    transition: color 0.3s ease;  /* Lassan vált át a szín a hover hatásra */
+}
+
+a:hover {
+    color: blue; 
+    text-decoration: none;
+    font-weight: bold;
+   
+}
